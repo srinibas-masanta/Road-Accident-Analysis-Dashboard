@@ -1,4 +1,4 @@
-# 🚦 UK Road Accident Analysis Dashboard (Power BI)
+# 🚦 UK Road Accident Analysis Dashboard
 
 This project presents a comprehensive data-driven analysis of road accidents across the United Kingdom using Power BI. The dashboard is designed to uncover key insights into accident severity, environmental conditions, road infrastructure, and vehicle involvement — enabling stakeholders to make informed decisions for improving public safety and reducing traffic-related casualties.
 
@@ -16,6 +16,12 @@ The primary goal of this project is to analyze UK road accident data to:
 - **DAX (Data Analysis Expressions)**: To create KPIs and custom measures
 - **Excel / CSV**: Original dataset provided in structured format
 - **GitHub**: For version control and sharing
+
+## 📚 Dataset
+
+The dataset used in this project is publicly available on Kaggle:
+
+🔗 [Road Traffic Accident Data – United Kingdom](https://www.kaggle.com/datasets/atharvasoundankar/road-accidents-dataset)
 
 ## 🗂️ Dataset Description
 
@@ -49,6 +55,9 @@ No missing values were present in the dataset. Minor cleaning was done to correc
 Due to the breadth of insights, the dashboard was split into two separate pages:
 
 ### 📍 Page 1: Accident Trends & Conditions Overview
+
+![image alt](https://github.com/srinibas-masanta/Road-Accident-Analysis-Dashboard/blob/32010b575056267d48e6563e7b619d7d53014b21/Dashboard%20Screenshots/Page%201.png)  
+
 This page focuses on when accidents happen and under what environmental conditions. It includes:
 - KPIs for Total Accidents, Casualties, Vehicles, and Severity Breakdown
 - Line chart: Accidents over Time
@@ -63,7 +72,11 @@ This page focuses on when accidents happen and under what environmental conditio
 - Cars dominate casualty figures, followed by bikes and goods vehicles
 
 ### 🏙️ Page 2: Location & Infrastructure Impact
+
+![Image Alt](https://github.com/srinibas-masanta/Road-Accident-Analysis-Dashboard/blob/32010b575056267d48e6563e7b619d7d53014b21/Dashboard%20Screenshots/Page%202.png)
+
 This page examines how location and road design influence accident patterns. It includes:
+- KPIs for Total Accidents, Casualties, Vehicles, and Severity Breakdown
 - Column chart: Top Junction Controls
 - Bar chart: Road Type Distribution
 - Pie and Donut charts for Light Conditions and Urban/Rural split
